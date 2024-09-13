@@ -74,7 +74,7 @@ export default defineComponent({
     });
 
     const change = () => {
-      console.log(1111111);
+      console.log('表格change事件触发');
     };
 
     const init = () => {
@@ -111,7 +111,7 @@ export default defineComponent({
           tags: ['cool', 'teacher', 'loser'],
         });
       }
-      console.log('init111111');
+      console.log('数据获取完成');
     };
 
     onMounted(() => {
