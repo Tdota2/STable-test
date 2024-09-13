@@ -26,7 +26,7 @@
 </template>
 <script lang="ts">
 import type { STablePaginationConfig } from '@surely-vue/table';
-import { defineComponent, ref } from 'vue';
+import { defineComponent, onMounted, ref } from 'vue';
 
 interface DataItem {
   key: string;
